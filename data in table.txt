@@ -1,0 +1,18 @@
+-- insert into office2 ( emplName,emplGender,emplSalary,emplAddress) values ('sani','female','10,000','karimabad'),('hira','female','90,000','gulshan-e-iqbal 13-E'),('taha','male','100,000','gulshan_hadid'),('munawer','male','20,000','gulshan_hadid'),('nosheen','female','9000','gulshan-e-igbal 13-E'),('ahmed','female','35,000','soldier-bazar'),('zehra','female','45,000','gulshan-hadid')
+-- select emplName,emplSalary from office2 order by emplSalary asc limit 2;
+-- SELECT emplName,emplSalary FROM office2 order by emplSalary desc LIMIT 3;
+-- update office2 set emplSalary=100000 where emplId=1
+-- update office2 set emplSalary=200000 where emplId=2
+-- update office2 set emplSalary=100000 where emplId=3
+-- update office2 set emplSalary=35000 where emplId=3
+-- update office2 set emplSalary=40000 where emplId=4
+-- update office2 set emplSalary=55000 where emplId=5
+-- update office2 set emplSalary=65000 where emplId=6
+-- update office2 set emplSalary=18000 where emplId=7;
+-- question 2(a)
+ -- SELECT emplName,emplSalary from office2 order by emplSalary desc LIMIT 2;
+ -- question 2(b)
+ -- SELECT emplName,emplSalary from office2 where emplGender= 'female' order by emplSalary desc LIMIT 3;
+ -- question5
+ -- SELECT emplName from office2 where emplGender='female', and emplAddress='gulshan_hadid','gulshan-e-iqbal 13-E'
+ 
